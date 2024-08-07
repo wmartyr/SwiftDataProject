@@ -11,14 +11,21 @@
 		EF8FAFEE2BC21FE800C17862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8FAFED2BC21FE800C17862 /* ContentView.swift */; };
 		EF8FAFF02BC21FEA00C17862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8FAFEF2BC21FEA00C17862 /* Assets.xcassets */; };
 		EF8FAFF32BC21FEA00C17862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8FAFF22BC21FEA00C17862 /* Preview Assets.xcassets */; };
+		EF8FAFFA2BC2205500C17862 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8FAFF92BC2205500C17862 /* User.swift */; };
+		EFC455B92BC87894002A2433 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC455B82BC87894002A2433 /* UsersView.swift */; };
+		EFE0689D2BCB5A830021BDE2 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0689C2BCB5A830021BDE2 /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF343BD82C4EF9220036DB6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EF8FAFE82BC21FE800C17862 /* SwiftDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8FAFEB2BC21FE800C17862 /* SwiftDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataProjectApp.swift; sourceTree = "<group>"; };
 		EF8FAFED2BC21FE800C17862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF8FAFEF2BC21FEA00C17862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF8FAFF22BC21FEA00C17862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF8FAFF92BC2205500C17862 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EFC455B82BC87894002A2433 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		EFE0689C2BCB5A830021BDE2 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,12 @@
 		EF8FAFEA2BC21FE800C17862 /* SwiftDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				EF343BD82C4EF9220036DB6A /* Info.plist */,
+				EFE0689C2BCB5A830021BDE2 /* Job.swift */,
 				EF8FAFEB2BC21FE800C17862 /* SwiftDataProjectApp.swift */,
 				EF8FAFED2BC21FE800C17862 /* ContentView.swift */,
+				EFC455B82BC87894002A2433 /* UsersView.swift */,
+				EF8FAFF92BC2205500C17862 /* User.swift */,
 				EF8FAFEF2BC21FEA00C17862 /* Assets.xcassets */,
 				EF8FAFF12BC21FEA00C17862 /* Preview Content */,
 			);
@@ -139,6 +150,9 @@
 			files = (
 				EF8FAFEE2BC21FE800C17862 /* ContentView.swift in Sources */,
 				EF8FAFEC2BC21FE800C17862 /* SwiftDataProjectApp.swift in Sources */,
+				EF8FAFFA2BC2205500C17862 /* User.swift in Sources */,
+				EFC455B92BC87894002A2433 /* UsersView.swift in Sources */,
+				EFE0689D2BCB5A830021BDE2 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +286,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataProject/Preview Content\"";
+				DEVELOPMENT_TEAM = KDY5P5UQX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,8 +316,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataProject/Preview Content\"";
+				DEVELOPMENT_TEAM = KDY5P5UQX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
